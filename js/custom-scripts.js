@@ -27,7 +27,7 @@ $(document).ready(function(){
     });
 
     $('.modal').modal();
-    
+    $('select').formSelect();
 
     var $header = $('header');
     var $sticky = $header.before($header.clone().addClass("sticky"));
